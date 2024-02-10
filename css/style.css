@@ -9,6 +9,10 @@
     box-sizing: border-box;
 }
 
+html{
+    overflow-x: hidden !important;
+    overscroll-behavior-x: none !important;
+}
 body{
     background-color: #000000;
     font-family: 'Manrope';
