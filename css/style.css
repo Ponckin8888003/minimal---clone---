@@ -13,6 +13,7 @@ body{
     background-color: #000000;
     font-family: 'Manrope';
     overflow-x: hidden !important;
+    overscroll-behavior-x: none !important;
     width: 100vw;
 }
 
@@ -195,9 +196,6 @@ h4{
 
 
 @media (max-width: 768px){
-body{
-    overflow-x: hidden !important;
-}
 .characteristics_section{
     display: grid;
 }
