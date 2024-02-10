@@ -12,7 +12,8 @@
 body{
     background-color: #000000;
     font-family: 'Manrope';
-    overflow-x: hidden;
+    overflow-x: hidden !important;
+    width: 100vw;
 }
 
 #zoom-in{
@@ -216,6 +217,18 @@ h2{
 }
 .our_advantages_section{
     display: block;
+}
+.our_advantages_text_content{
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+h3{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.our_advantages_text_content_subtitle{
+    width: 100%;
 }
 .our_advantages_text_section{
     width: 100%;
